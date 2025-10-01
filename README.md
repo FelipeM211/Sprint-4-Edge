@@ -126,12 +126,12 @@ json
 
 
 ## 👥 Integrantes
-Nome	RM
-Felipe Murad	562347
-Guilherme Barone	562114
-Leandro Junior	561344
-Lucas Massoni	561686
-Luigi Escudero	562505
+# Nome -	RM
+# Felipe Murad -	562347
+# Guilherme Barone -	562114
+# Leandro Junior -	561344
+# Lucas Massoni -	561686
+# Luigi Escudero -	562505
 
 
 ## 📸 Demonstração
