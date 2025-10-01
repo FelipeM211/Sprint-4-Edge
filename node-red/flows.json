@@ -1,0 +1,535 @@
+[
+    {
+        "id": "8cf5f8017778dc10",
+        "type": "tab",
+        "label": "Fluxo 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "mqtt_broker",
+        "type": "mqtt-broker",
+        "name": "teste",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "07f05eba7cf7edce",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "broker-hivemq",
+        "type": "mqtt-broker",
+        "name": "HiveMQ Broker",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {}
+    },
+    {
+        "id": "dashboard-tab",
+        "type": "ui_tab",
+        "name": "Dashboard Jogadoras",
+        "icon": "sports_soccer",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9a47c54f8d90d25f",
+        "type": "ui_tab",
+        "name": "Dashboard Jogadoras",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "77b38e166f86e847",
+        "type": "ui_tab",
+        "name": "Dashboard Jogadoras",
+        "icon": "sports_soccer",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dashboard-group",
+        "type": "ui_group",
+        "name": "Monitoramento Jogadoras",
+        "tab": "dashboard-tab",
+        "order": 1,
+        "disp": true,
+        "width": 12,
+        "collapse": false
+    },
+    {
+        "id": "1cbd46e74be463f4",
+        "type": "ui_group",
+        "name": "Monitoramento Jogadoras",
+        "tab": "dashboard-tab",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "1e4b9c35ecdd12c4",
+        "type": "ui_group",
+        "name": "Monitoramento Jogadoras",
+        "tab": "dashboard-tab",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "2d94e594db21dbb8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "fd2ac35f625fea4d",
+        "type": "mqtt-broker",
+        "name": "HiveMQ Broker",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {}
+    },
+    {
+        "id": "059669bd7d03e117",
+        "type": "ui_group",
+        "name": "Monitoramento Jogadoras",
+        "tab": "ba09f5e34401b5da",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ba09f5e34401b5da",
+        "type": "ui_tab",
+        "name": "Dashboard Jogadoras",
+        "icon": "sports_soccer",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c5e8c5f9.8e2f58",
+        "type": "mqtt-broker",
+        "name": "HiveMQ Broker",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {}
+    },
+    {
+        "id": "a1b2c3d4.e56789",
+        "type": "ui_tab",
+        "name": "Dashboard Jogadoras",
+        "icon": "sports_soccer",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7a8b4c5d.9e12f8",
+        "type": "ui_group",
+        "name": "Monitoramento Jogadoras",
+        "tab": "a1b2c3d4.e56789",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "01da6d7d0b91483e",
+        "type": "mqtt in",
+        "z": "8cf5f8017778dc10",
+        "name": "Estatísticas Jogadoras",
+        "topic": "partida/+/jogadora/+/estatisticas",
+        "qos": "0",
+        "broker": "c5e8c5f9.8e2f58",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 340,
+        "wires": [
+            [
+                "aea8381861db7f3b",
+                "4afbdc018ebf3971"
+            ]
+        ]
+    },
+    {
+        "id": "aea8381861db7f3b",
+        "type": "debug",
+        "z": "8cf5f8017778dc10",
+        "name": "Debug JSON Bruto",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4afbdc018ebf3971",
+        "type": "function",
+        "z": "8cf5f8017778dc10",
+        "name": "Processar Dados Corrigido",
+        "func": "try {\n    // Verificar se msg.payload existe\n    if (!msg.payload) {\n        console.log('❌ Payload vazio recebido');\n        return null;\n    }\n    \n    // Extrair informações do tópico\n    var topicParts = msg.topic.split('/');\n    var partida = topicParts[1] || 'partida_desconhecida';\n    var jogadora = topicParts[3] || 'jogadora_desconhecida';\n\n    // Fazer parse seguro do JSON se for string\n    var dados = msg.payload;\n    if (typeof msg.payload === 'string') {\n        try {\n            dados = JSON.parse(msg.payload);\n        } catch (e) {\n            console.log('❌ Erro ao parsear JSON:', e.message);\n            return null;\n        }\n    }\n    \n    // Garantir que os valores numéricos existem\n    var distancia = Number(dados.distancia_acumulada) || 0;\n    var velocidade = Number(dados.velocidade) || 0;\n    var tempo = Number(dados.tempo) || 0;\n    \n    // Criar novo payload seguro\n    var novoPayload = {\n        jogadora: jogadora,\n        partida: partida,\n        distancia_acumulada: distancia,\n        velocidade: velocidade,\n        tempo: tempo,\n        timestamp: new Date().toISOString(),\n        id_jogadora: dados.id_jogadora || jogadora,\n        partida_id: dados.partida || partida\n    };\n    \n    // Log de sucesso\n    console.log('✅ Dados processados com SUCESSO:');\n    console.log('Jogadora:', jogadora);\n    console.log('Distância:', distancia.toFixed(2) + 'm');\n    console.log('Velocidade:', velocidade.toFixed(2) + 'm/s');\n    console.log('Tempo:', tempo + 's');\n    \n    msg.payload = novoPayload;\n    return msg;\n    \n} catch (error) {\n    console.log('❌ ERRO no processamento:', error.message);\n    console.log('Payload recebido:', msg.payload);\n    return null;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 380,
+        "wires": [
+            [
+                "34fe1ba2b4559ec6",
+                "ad8cf398d6c47aec"
+            ]
+        ]
+    },
+    {
+        "id": "34fe1ba2b4559ec6",
+        "type": "debug",
+        "z": "8cf5f8017778dc10",
+        "name": "Dados Processados",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ad8cf398d6c47aec",
+        "type": "function",
+        "z": "8cf5f8017778dc10",
+        "name": "Enviar para Dashboard",
+        "func": "try {\n    var dados = msg.payload;\n    \n    if (!dados) {\n        console.log('❌ Dados vazios para dashboard');\n        return [null, null, null];\n    }\n    \n    // Criar múltiplas mensagens para diferentes componentes\n    var mensagens = [];\n    \n    // 1. Para o gráfico de distância\n    var msgDistancia = {};\n    msgDistancia.topic = \"distancia\";\n    msgDistancia.payload = {\n        label: dados.jogadora,\n        value: dados.distancia_acumulada,\n        series: [\"Distância\"],\n        data: [[dados.distancia_acumulada]],\n        labels: [new Date(dados.timestamp).toLocaleTimeString()]\n    };\n    \n    // 2. Para o gauge de velocidade (APENAS o valor numérico)\n    var msgVelocidade = {};\n    msgVelocidade.payload = dados.velocidade; // APENAS o número\n    \n    // 3. Para o template do dashboard\n    var msgTemplate = {};\n    msgTemplate.payload = {\n        jogadora: dados.jogadora,\n        partida: dados.partida,\n        distancia: dados.distancia_acumulada.toFixed(2),\n        velocidade: dados.velocidade.toFixed(2),\n        tempo: dados.tempo,\n        timestamp: new Date(dados.timestamp).toLocaleTimeString()\n    };\n    \n    return [msgDistancia, msgVelocidade, msgTemplate];\n    \n} catch (error) {\n    console.log('❌ ERRO no dashboard:', error.message);\n    return [null, null, null];\n}",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 440,
+        "wires": [
+            [
+                "33c2ab1ea22991d8"
+            ],
+            [
+                "628bf74e77b3c1a7"
+            ],
+            [
+                "672fac8be7803475"
+            ]
+        ]
+    },
+    {
+        "id": "33c2ab1ea22991d8",
+        "type": "ui_chart",
+        "z": "8cf5f8017778dc10",
+        "name": "Distância Acumulada",
+        "group": "7a8b4c5d.9e12f8",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "label": "Distância Percorrida (m)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#d62728",
+            "#9467bd",
+            "#8c564b",
+            "#e377c2",
+            "#7f7f7f",
+            "#bcbd22",
+            "#17becf"
+        ],
+        "outputs": 1,
+        "x": 1140,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "628bf74e77b3c1a7",
+        "type": "ui_gauge",
+        "z": "8cf5f8017778dc10",
+        "name": "Velocidade Gauge",
+        "group": "7a8b4c5d.9e12f8",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Velocidade (m/s)",
+        "label": "m/s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "6",
+        "seg2": "8",
+        "x": 1140,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "672fac8be7803475",
+        "type": "ui_template",
+        "z": "8cf5f8017778dc10",
+        "group": "7a8b4c5d.9e12f8",
+        "name": "Dashboard Principal",
+        "order": 3,
+        "width": 12,
+        "height": 2,
+        "format": "<div style=\"padding: 15px; background: #2c3e50; color: white; border-radius: 5px; margin-bottom: 15px;\">\n    <h2 style=\"margin: 0 0 10px 0;\">🏃 Monitoramento de Jogadoras</h2>\n    <div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;\">\n        <div style=\"text-align: center;\">\n            <div style=\"font-size: 24px; font-weight: bold; color: #3498db;\">{{payload.distancia}} m</div>\n            <div style=\"font-size: 14px;\">Distância Total</div>\n        </div>\n        <div style=\"text-align: center;\">\n            <div style=\"font-size: 24px; font-weight: bold; color: #e74c3c;\">{{payload.velocidade}} m/s</div>\n            <div style=\"font-size: 14px;\">Velocidade Atual</div>\n        </div>\n        <div style=\"text-align: center;\">\n            <div style=\"font-size: 24px; font-weight: bold; color: #27ae60;\">{{payload.tempo}} s</div>\n            <div style=\"font-size: 14px;\">Tempo de Jogo</div>\n        </div>\n    </div>\n    <div style=\"margin-top: 10px; font-size: 12px; color: #bdc3c7;\">\n        Jogadora: <strong>{{payload.jogadora}}</strong> | Partida: <strong>{{payload.partida}}</strong> | Atualizado: {{payload.timestamp}}\n    </div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1140,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d777c8e61cd02fb9",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
