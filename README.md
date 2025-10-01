@@ -148,7 +148,7 @@ Luigi Escudero	562505
 ![Estrutura do Fluxo](prints/node-red-flow.png)
 
 ### App Mobile (Opcional)
-![Visualização no Celular](prints/mqtt-cel.jpg)
+![Visualização no Celular](prints/mqtt-cel.png)
 
 📄 Licença
 Este projeto foi desenvolvido para fins acadêmicos. Distribuído sob licença educacional.
