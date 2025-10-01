@@ -30,7 +30,6 @@ dados simulados dos dados e filtragem em tempo real
   - Broker público HiveMQ
 
 - **📊 Dashboard Node-RED**
-  - Gráfico de linha: velocidade ao longo do tempo
   - Indicador numérico: distância acumulada
   - Visualização em tempo real
 
