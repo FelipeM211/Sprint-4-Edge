@@ -54,21 +54,19 @@ dados simulados dos dados e filtragem em tempo real
 ### Pré-requisitos
 - Node-RED instalado localmente
 - Acesso à internet para broker MQTT público
+- Instalar as bibliotecas necessarias no Arduino IDE
 
-### 1. Configuração do Wokwi
+### 1. Configuração do Arduino IDE
 
 
-// Código disponível em /wokwi/sketch.ino
-// Simula dados de jogadora e publica via MQTT
-Passos:
+// Código disponível em /Arduino-IDE/Arduino-IDE.ino
+// Instalar as bibliotecas necessarias no Arduino IDE
 
-Acesse Wokwi ESP32 Simulator
+Cole o código do Arduino-IDE.ino
 
-Cole o código do arquivo sketch.ino
+Adicione as bibliotecas: PubSubClient e ArduinoJson e Dht sensor library
 
-Adicione as bibliotecas: PubSubClient e ArduinoJson
-
-Execute a simulação
+Execute
 
 2. Configuração MQTT
 json
@@ -118,9 +116,9 @@ json
   "payload": {
     "id_jogadora": "jogadora_001",
     "partida": "partida_2024_001",
-    "tempo": 45,
-    "distancia_acumulada": 125.75,
-    "velocidade": 3.2
+    "tempo": ,
+    "distancia_acumulada": ,
+    "velocidade": 
   }
 }
 
@@ -150,6 +148,13 @@ json
 
 ### App Mobile (Opcional)
 ![Visualização no Celular](prints/mqtt-cel.png)
+
+### ESP32 montado
+![Visualizar sistema](prints/ESP32.jpg)
+
+### Video do youtube
+![Visualizar video](https://youtu.be/MLYgtO5fYrI)
+
 
 📄 Licença
 Este projeto foi desenvolvido para fins acadêmicos. Distribuído sob licença educacional.
