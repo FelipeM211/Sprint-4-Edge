@@ -140,8 +140,6 @@ json
 ### Debug JSON
 ![Validação dos Dados](prints/debug-json.png)
 
-### Simulação Wokwi
-![Código e Serial Monitor](prints/wokwi-simulacao.png)
 
 ### Fluxo Node-RED
 ![Estrutura do Fluxo](prints/node-red-flow.png)
