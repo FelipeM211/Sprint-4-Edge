@@ -153,7 +153,7 @@ json
 ![Visualizar sistema](prints/ESP32.jpg)
 
 ### Video do youtube
-![Visualizar video](https://youtu.be/MLYgtO5fYrI)
+[![Visualizar video](https://youtu.be/MLYgtO5fYrI)](https://youtu.be/MLYgtO5fYrI)
 
 
 📄 Licença
